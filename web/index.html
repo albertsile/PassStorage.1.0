@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <title>PassStorage</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="navbar navbar-expand-lg navbar-dark bg-primary col-12">
+          <a class="navbar-brand py-2" id="menu-title" href="#">Password manager</a>
+          <div class="d-flex justify-content-end w-100">
+              
+            <ul class="navbar-nav  d-flex justify-content-end">
+              <li class="nav-item " id="userProfile" style="display:none;">
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+              <li class="nav-item " id="addResource" style="display: none;">
+                <a class="nav-link" href="#">Add resource</a>
+              </li>
+              <li class="nav-item " id="resources" style="display: none;">
+                <a class="nav-link" href="#">My passwords</a>
+              </li>
+              <li class="nav-item"  id="showLogin">
+                <a class="nav-link" href="#">Sign in</a>
+              </li>
+              <li class="nav-item"  id="sysout" style="display: none;">
+                <a class="nav-link" href="#">Exit</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p id="info" class="w-100 text-center">&nbsp;</p>
+      <div id="content"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="module" src="js/AppModule.js"></script>
+  </body>
+</html>
